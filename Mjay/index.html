@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MJAY VENTURES</title>
+    <style type="text/css">
+        .border-rad {
+        border-radius: 50px;
+        }
+        .pad {
+        box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
+        }
+
+        .heading {
+        padding: 20px;
+        }
+
+        .left {
+        width: 50%;
+        height: 100%;
+        float: left;
+        }
+
+        .right {
+        width: 50%;  
+        float: right;
+        margin-top: 50px;
+        color: black;
+        }
+
+        h3 {
+        font-size: 48px !important;
+        }
+        
+        a:hover {
+        text-decoration: none;
+        }
+
+        .p {
+        color: darkgrey !important;
+        font-weight: 500 !important;
+        }
+
+        .bttn {
+        border-radius: 50px !important; 
+        background-color: transparent !important;
+        color:grey !important;
+        border: 2px solid black !important;
+        }
+
+        .bttn:hover {
+        color: black !important;
+        }
+
+        .carousel-indicators li {
+        width: 5px !important;
+        height: 2px !important;
+        background-color: black !important;
+        }
+
+        input, textarea {
+        padding: 20px;
+        max-width: 400px;
+        border: 1px solid darkgrey;
+        border-radius: 25px; 
+        }
+
+        input:hover, textarea:hover {
+        border: 2px solid black;
+        }
+
+        /* textarea {
+        width: 400px;
+        height: 150px;
+        max-width: 400px;
+        } */
+
+        .wide {
+        width: 180px;
+        height: 50px;
+        }
+
+        .foot {
+        border-top: 1px solid rgba(0, 0, 0, .15) !important;
+        }
+    </style>
+</head>
+<body>
+    <!--header starts-->
+    <header>
+        <div class="container-fluid pad fixed-top">
+            <!-- navbar starts -->
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <a class="navbar-brand" href="index.html">MJAY (Logo)</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--navbar collapse starts-->
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav medium ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            OUR SERVICES
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Fabrics</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Prints</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Data & Bill Payments</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                        </li>
+                        </ul>
+                    </div>
+                    <!--navbar collapse ends-->
+                </nav>
+            </div>
+            <!--navbar ends-->
+        </div>
+    
+
+        <div class="container heading mt-5">
+            <h1>MJAY VENTURES</h1>
+            <p class="p"><em>We provide you with quality products and efficient services.</em></p>
+        </div>
+
+    </header>
+    <!--header ends-->
+    <!--service intro section starts-->
+    <section class="container">
+        <h2><em>What We Offer You...</em></h2>
+        <div class="mb-5">
+            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <!-- <span style="color:#f00 !important">Web Design Manchester</span> -->
+                    <li id="one" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <!-- <span style="color:#f00 !important">eCommerce Websites</span> -->
+                    <li id="two" data-target="#myCarousel" data-slide-to="1"></li>
+                    <!-- <span style="color:#f00 !important">Responsive/Mobile Websites</span> -->
+                    <li id="three" data-target="#myCarousel" data-slide-to="2"></li>
+                
+                </ol>
+            <div class="container">
+                <div class="carousel-inner row">
+                    <div class="carousel-item active">
+                        <div class="left">
+                        <img src="img/power.jpg" class="d-block w-100 border-rad" alt="image 1">
+                        </div>
+                        <div class="right">
+                            <div class="d-none d-md-block pl-5">
+                                <h3>Exquisite Fabrics</h3>
+                                <p class="p">For your quality materials such as Senator Cashmere, Dry Lace, Ankara, Plain and Pattern fabrics, e.t.c</p>
+                                <a class="btn bttn" href="#" role="button">Find Out More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="left">
+                        <img src="img/summer.jpg" class="d-block w-100 border-rad" alt="image 2">
+                        </div>
+                        <div class="right">
+                            <div class="d-none d-md-block pl-5">
+                                <h3>Neat Designs and Groovy Prints</h3>
+                                <p class="p">For your neat and relevant logo designs, stickers, fliers, so on. As well as Prints such as 
+                                    T-Shirts, Throw Pillows, Business Cards, and much more.
+                                </p>
+                                <a class="btn bttn" href="#" role="button">View Our Work</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="left">
+                        <img src="img/trees.jpg" class="d-block w-100 border-rad" alt="image 3">
+                        </div>
+                        <div class="right">
+                            <div class="d-none d-md-block pl-5">
+                                <h3>Data & Bill Payments</h3>
+                                <p class="p">We provide you with affordable and effective data service. Accompanied with bill services such
+                                    as GoTv, DsTv, Electricity, e.t.c.
+                                </p>
+                                <a class="btn bttn" href="#" role="button">Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </div>
+    </section>
+    <!--service intro section ends-->
+    <!--about us section starts-->
+    <section  class="container mt-5">
+        <div>
+            <h2 id="about"><em>About Us</em></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
+            </p> 
+        </div>
+    </section>
+    <!--about us section ends-->
+    <!--contact us starts-->
+    <section class="container mb-5">
+        <h2 id="contact"><em>Contact Us</em></h2>
+        <!--Beginning of contact form-->
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control" id="name" name="name" type="text" placeholder="Full Name" pattern="[A-Za-z]{}" required minlength="4">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input class="form-control" id="title" name="title" type="text" placeholder="Subject of Message" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" type="text"  placeholder="Leave Your Message Here" required minlength="20" rows="5"></textarea>
+            </div>
+            <div>
+                <a href="#">
+                    <button type="submit" name="submit" class="bttn wide">Send</button>
+                </a>
+                <span> OR </span>
+                <a href="#">
+                    <button type="submit" name="submit" class="bttn wide">Direct Whatsapp Chat</button>
+                </a>
+            </div>
+          </form>  
+        </div>
+        <!--end of  contact form-->
+    </section>
+    <!--contact us ends-->
+    <!--footer starts-->
+    <footer class="footer foot fixed-bottom">
+        <div class="container">
+            <div class="text-center small">
+                Copyright © 2020 MJAY VENTURES 
+            </div>
+        
+        </div>
+    </footer>
+    <!--footer ends-->
+
+<!-- <script src="bootstrap/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="bootstrap/jquery/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
