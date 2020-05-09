@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    background-color:  #181818;
+    height: 100%;
+}
+#wrapper {
+    display:table;
+    overflow:hidden;
+    margin:0px auto;
+    width: 800px;
+    height: 100%;
+}
+#content-wrapper {
+    display:table-cell;
+    vertical-align: middle;
+}
+#content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.grey {
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* border-bottom-left-radius: 0px; */
+    height: 100%;
+    padding: 20px 40px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+#flex {
+    display: flex;
+    flex-flow: row row-reverse;
+    justify-content: center;
+}
+#texts {
+    width: 50%;
+}
+#pic {
+    margin-left: 200px;
+}
+section {
+	border-bottom: 1px solid lightgoldenrodyellow;
+    padding-bottom: 15px;
+    margin: 20px 0px;
+}
+.container {
+    width: 75%;
+    background-color: #ddd;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.skills {
+    text-align: right;
+    padding: 10px;
+    border-radius: 50px;
+    padding-bottom: 5px;
+    color: white;
+}
+.html {
+    width: 90%;
+    background-color: #181818;
+}
+.css {
+    width: 50%;
+    background-color: dimgrey;
+}
+.javascript {
+    width: 30%;
+    background-color: darkslategrey;
+}
+.git {
+    width: 70%;
+    background-color: rgb(89, 189, 189);
+}
+ul li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+input, textarea {
+    height: 40px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 200;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 0px;
+    background-color: #EDF2F7;
+}
+button {
+    background-color: darkslategrey;
+    color: white;
+    border: darkcyan;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px auto;
+    width: 200px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
